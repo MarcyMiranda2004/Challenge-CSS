@@ -12,7 +12,7 @@ body {
 
 .image-containe img{
     height: 800px; /*500 era troppo piccolo rispetto all'immagine, purtroppo esce fuori sfocata,ma la maggior parte di quelle provate non vanno come url*/
-    width: 2480px;
+    width: 2462px;
 }
 
 .image-containe h1 {
