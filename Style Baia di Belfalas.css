@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-containe img{
+    height: 1000px; /*500 era troppo piccolo rispetto all'immagine, purtroppo esce fuori sfocata,ma la maggior parte di quelle provate non vanno come url*/
+    width: 2462px;
+}
+
+.image-containe h1 {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.image-containe h3 {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.image-containe a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.image-containe h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: aliceblue;
+    border-radius: 6px;
+    background: linear-gradient(to right, #29aaf5, #42f3db);
+    
+}
+
+.image-containe ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0; 
+}
+
+.image-containe li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #036e03; 
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
